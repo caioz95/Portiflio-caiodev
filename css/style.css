@@ -31,7 +31,7 @@ body {
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 1);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -491,6 +491,7 @@ span {
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
+    text-align: center;
 }
 
 .service-info p {
@@ -499,6 +500,7 @@ span {
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
+    text-align: justify;
 }
 #link {
     color: inherit; /* Mantém a cor do texto igual ao do restante do documento */
@@ -714,9 +716,6 @@ span {
     .home-content p {
         max-width: 600px;
         margin: 0 auto;
-    }
-    .home-img img {
-        width: 56vw;
     }
     .services h2 {
         margin-bottom: 3rem;
