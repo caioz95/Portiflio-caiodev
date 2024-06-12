@@ -733,6 +733,10 @@ span {
     ::-webkit-scrollbar {
         width: 8px;
     }
+     .contact h2 {
+        font-size: 5rem;
+        margin-bottom: 5px;
+    }
 }
 @media (max-width: 596px) {
     #secondBottom {
