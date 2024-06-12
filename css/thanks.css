@@ -2,9 +2,8 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #00ffee; /* Cor principal usada */
+    --main-color: #9857d5;
 }
-
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
